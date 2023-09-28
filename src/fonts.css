@@ -1,0 +1,12 @@
+
+@font-face {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    src: url('%sveltekit.assets%/fonts/st.otf'); /* IE9 Compat Modes */
+    src: local('%sveltekit.assets%/fonts/st.otf'), url('%sveltekit.assets%/fonts/st.otf?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */ url('/fonts/st.otf') format('woff2'),
+        /* Super Modern Browsers */ url('/fonts/st.otf') format('woff'),
+        /* Modern Browsers */ url('/fonts/st.otf') format('truetype'),
+        /* Safari, Android, iOS */ url('/fonts/st.otf#Lora') format('svg'); /* Legacy iOS */
+}

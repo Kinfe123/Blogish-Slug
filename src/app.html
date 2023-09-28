@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+	<link rel="icon" href="https://fav.farm/🔥" />
+
+
+	<meta name="viewport" content="width=device-width" />
+	%sveltekit.head%
+</head>
+<style>
+    body {
+		font-family: 'IBM';
+	}
+	@font-face {
+		font-family: 'IBM';
+		font-style: normal;
+		font-weight: 500;
+		src: url('/fonts/IBM.otf');
+		/* IE9 Compat Modes */
+		src: local('%sveltekit.assets%/fonts/IBM.otf'), url('%sveltekit.assets%/fonts/IBM.otf?#iefix') format('embedded-opentype'),
+			/* IE6-IE8 */
+			url('/fonts/IBM.otf') format('woff2'),
+			/* Super Modern Browsers */
+			url('/fonts/IBM.otf') format('woff'),
+			/* Modern Browsers */
+			url('/fonts/IBM.otf') format('truetype'),
+			/* Safari, Android, iOS */
+			url('/fonts/IBM.otf#Lora') format('svg');
+		/* Legacy iOS */
+	}
+</style>
+
+<body data-sveltekit-preload-data="hover">
+	<div style="display: contents">%sveltekit.body%</div>
+</body>
+
+</html>
