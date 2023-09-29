@@ -7,6 +7,8 @@
     import Typewriter from 'svelte-typewriter'
     // import { concurrent } from 'svelte-typewriter'
     import BlogCard from '../lib/components/blog-card.svelte'
+    import OssSection from "$lib/components/oss-section.svelte";
+    import Community from "$lib/components/community.svelte";
     export let data
     
 
@@ -37,6 +39,9 @@
 			<BlogCard {post}/>
             {/each}
         </ul>
+
+        <OssSection />
+        <Community />
 
       
           

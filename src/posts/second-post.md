@@ -3,7 +3,7 @@ title: Second post
 description: First post goes here and i am exited what we will be doing here.
 date: '2023-4-14'
 author: KinfeMichael Tariku
-authorImage: /author-images/Kinfe123
+authorImage: /author-images/Kinfe.jpeg
 image: '/blog-post/Svelte-b.png'
 categories:
   - sveltekit

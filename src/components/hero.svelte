@@ -50,14 +50,14 @@
 
 	<div class="mx-auto mt-10 flex max-w-fit space-x-4">
 		<a
-			href={`${APP_DOMAIN}/register`}
+			href={`${APP_DOMAIN}`}
 			class="rounded-full border border-black bg-black px-5 py-2 text-sm text-white shadow-lg transition-all hover:bg-white hover:text-black"
 		>
 			Start For Free
 		</a>
 		<a
 			class="flex items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-5 py-2 shadow-lg transition-all hover:border-gray-800"
-			href="https://dub.sh/github"
+			href="https://github.com/Kinfe123"
 			target="_blank"
 			rel="noreferrer"
 		>
@@ -91,7 +91,7 @@
 
 	.main:after {
 		content: '';
-		background-image: url('/static/grid.svg');
+		background-image: url('/grid.svg');
 		z-index: 1;
 		position: absolute;
 		width: 100%;
